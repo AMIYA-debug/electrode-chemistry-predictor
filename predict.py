@@ -12,8 +12,7 @@ import pandas as pd
 PROJECT_DIR = Path(__file__).resolve().parent
 MODELS_DIR = PROJECT_DIR / "models"
 FEATURES_PATH = MODELS_DIR / "feature_names.json"
-# Keep the output in conventional weld-chemistry order. Any future exported
-# target not listed here is still predicted and printed after these elements.
+
 CHEMISTRY_DISPLAY_ORDER = ["C", "Si", "Mn", "Cr", "Ni", "Mo", "Ti", "Al", "Nb", "S", "P"]
 
 
