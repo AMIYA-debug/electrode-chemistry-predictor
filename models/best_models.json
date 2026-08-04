@@ -1,0 +1,57 @@
+{
+  "Al": {
+    "best_model": "Linear Regression",
+    "model_file": "models/Al/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  },
+  "C": {
+    "best_model": "SVR (RBF)",
+    "model_file": "models/C/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  },
+  "Cr": {
+    "best_model": "SVR (RBF)",
+    "model_file": "models/Cr/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  },
+  "Mn": {
+    "best_model": "ElasticNet",
+    "model_file": "models/Mn/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  },
+  "Mo": {
+    "best_model": "KNN",
+    "model_file": "models/Mo/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  },
+  "Nb": {
+    "best_model": "Ridge",
+    "model_file": "models/Nb/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  },
+  "Ni": {
+    "best_model": "Gaussian Process (RBF)",
+    "model_file": "models/Ni/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  },
+  "P": {
+    "best_model": "Decision Tree",
+    "model_file": "models/P/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  },
+  "S": {
+    "best_model": "Linear Regression",
+    "model_file": "models/S/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  },
+  "Si": {
+    "best_model": "Linear Regression",
+    "model_file": "models/Si/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  },
+  "Ti": {
+    "best_model": "Linear Regression",
+    "model_file": "models/Ti/model.pkl",
+    "preprocessing": "separate_standard_scaler"
+  }
+}
