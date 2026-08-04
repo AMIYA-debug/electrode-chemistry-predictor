@@ -74,8 +74,6 @@ def find_saved_targets() -> list[Path]:
     if not target_by_name:
         raise FileNotFoundError(f"No target model files were found beneath: {MODELS_DIR}")
 
-    # Ti is deliberately included in the standard output order whenever its
-    # exported model exists, rather than relying on incidental directory order.
     ordered_names = [name for name in CHEMISTRY_DISPLAY_ORDER if name in target_by_name]
     additional_names = sorted(set(target_by_name) - set(CHEMISTRY_DISPLAY_ORDER))
     return [target_by_name[name] for name in ordered_names + additional_names]
